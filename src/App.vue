@@ -28,7 +28,7 @@ import { Component, Provide, Vue } from 'vue-property-decorator'
   }
 })
 export default class App extends Vue {
-  msg: string = 'Welcome to Your Vue.js App'
+  @Provide() msg: string = 'Welcome to Your Vue.js App'
 }
 </script>
 
